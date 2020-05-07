@@ -1,7 +1,7 @@
 import React from "react";
 import { fetchShow as mockFetchShow } from "../api/fetchShow";
 import App from "../App";
-import { render, wait, act } from "@testing-library/react";
+import { render, wait } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 
 jest.mock("../api/fetchShow");
